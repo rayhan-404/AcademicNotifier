@@ -1,0 +1,6 @@
+{
+  "name": "UniSync",
+  "description": "An elegant academic companion app for university students featuring routines, timers, alerts, community forums, and high-fidelity Kotlin Jetpack Compose code generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #f0f3f8; /* Ultra-soft, elegant Neumorphic base background */
+  --color-surface-container: #e1e7f0; /* Balanced container base */
+  --color-surface-container-low: #f8fafc; /* For inset/card subtle highlights */
+  --color-surface-container-high: #d2dce8; /* For deep inset shadows */
+  --color-surface-container-highest: #c4d0e2; /* For crisp active backgrounds */
+  
+  --color-primary: #1d4ed8; /* Premium vibrant cobalt blue */
+  --color-primary-container: #dbeafe;
+  --color-primary-fixed: #eff6ff;
+  --color-on-primary-fixed: #1e40af;
+  
+  --color-secondary: #059669; /* Soft forest emerald green */
+  --color-secondary-container: #d1fae5;
+  --color-secondary-fixed: #f0fdf4;
+  --color-on-secondary-fixed-variant: #065f46;
+  
+  --color-tertiary: #7c3aed; /* Premium royal violet */
+  --color-tertiary-container: #eedffc;
+  --color-tertiary-fixed: #f5f3ff;
+  --color-on-tertiary-fixed: #5b21b6;
+  
+  --color-on-surface: #1e293b; /* Premium slate dark charcoal for crisp reading */
+  --color-on-surface-variant: #64748b; /* Soft slate grey for metadata and secondary labels */
+  --color-inverse-surface: #0f172a;
+  --color-inverse-on-surface: #f8fafc;
+  
+  --color-error: #dc2626;
+  --color-on-error: #ffffff;
+  
+  --color-outline: #94a3b8;
+  --color-outline-variant: #cbd5e1;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-headline-sm: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-sm: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body-sm: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-title-md: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-headline-lg-mobile: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body-md: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-md: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --text-headline-sm: 1.125rem; /* 18px */
+  --text-title-md: 1rem; /* 16px */
+  --text-headline-lg-mobile: 1.5rem; /* 24px */
+}
+
+/* Custom scrollbar hiding utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
